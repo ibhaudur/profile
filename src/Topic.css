@@ -1,0 +1,27 @@
+#about{
+    background-color: rgba(255, 255, 255, 0.952);
+    /* height: 100vh; */
+}#text{
+    text-align: center;
+}
+#bf::after{
+    content: "";
+    width: 50px;
+    height: 2px;
+    background:crimson;
+    display: inline-block;
+}
+#bf::before{
+    content: "";
+    width: 50px;
+    height: 2px;
+    background: crimson;
+    display: inline-block;
+}
+#bf::before{
+    margin: 0 10px 10px 0;
+}
+#bf::after{
+    margin: 0 0 10px 10px;
+
+}

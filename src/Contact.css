@@ -1,0 +1,36 @@
+#contact{
+    /* background-color:black; */
+    background-image: linear-gradient(to left,#3c3b3f,#605c3c);
+
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+.ico{
+    color:crimson;
+    font-size: 40px;
+    padding-top: -30px;
+}
+#cp{
+    color: white;
+    padding-top: -10px;
+}
+#h3{
+    color: crimson;
+}
+.butn{
+    border: 4px solid crimson;
+    outline: none;
+    background-color: transparent;
+    color: crimson;
+    font-weight: bold;
+    font-size: large;
+    letter-spacing: 6px;
+
+}
+#butn:focus{
+    border: 4px solid #00a800;
+    outline: none;
+    box-shadow: none;
+    color: #fff ;
+
+}

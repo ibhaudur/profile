@@ -1,0 +1,68 @@
+#Skill{
+    background-color:whitesmoke;
+    padding-top: 6%;
+    padding-bottom: 3%;
+}
+.bars{
+    margin-bottom: 30px;
+}
+.info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#si{
+    color: black;
+    font-weight: 500;
+    font-family:sans-serif;
+    font-size: 18px;
+    
+}
+.line{
+    height: 5px;
+    width: 100%;
+    background-color: lightgray ;
+    position: relative;
+    transition: all 2s ease-in-out;
+}
+.line::before{
+    content: '';
+    position:absolute;
+    height: 100%;
+    width: 92%;
+    background-color:crimson;
+    transition: 0.8s;
+}
+.css::before{
+    width: 60%;
+}
+.c::before{
+    width: 62%;
+}
+.cpp::before{
+    width: 80%;
+}
+.java::before{
+    width: 50%;
+}
+.js::before{
+    width: 65%;
+}
+.php::before{
+    width: 77%;
+}
+.sql::before{
+    width: 65%;
+}
+.bs::before{
+    width:86%;
+}
+.rj::before{
+    width: 75%;
+}
+.nj::before{
+    width: 20%;
+}
+.md::before{
+    width: 7%;
+}

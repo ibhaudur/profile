@@ -1,0 +1,177 @@
+
+.overlay{
+    background-color: rgba(0, 0, 0, 0.658);
+    background-size: cover;
+    overflow: hidden;
+    height:100vh;
+}
+#s{
+    font-size: 26px;
+    font-weight: 350;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+#b{
+    font-size: 46px;
+    font-weight: 500;
+    color: white;
+    padding-bottom: 10px;
+    
+}
+
+#av{
+    font-size: 34px;
+    font-weight: 400;
+    color: white;
+    
+}
+#ro{
+    padding-top: 230px;
+    justify-content: center;
+    /* padding-left: 200px; */
+}
+#but{
+    color: #fff;
+    border: 4px solid  crimson;
+    background: transparent;
+    width: 150px;
+    height:50px;
+    border-radius: 25px;
+    font-weight: bold;
+    position: relative;
+    overflow: hidden;
+    transition: all 2s ease-in-out;
+    z-index: 1;
+}
+#but::before{
+    content: "";
+    position:absolute;
+    height: 60px;
+    width: 0px;
+    left: 0;
+    bottom: 0;
+    transition: 0.8s;
+    z-index: -1;
+}
+#but:hover::before{
+    width: 180px;
+    background-color: crimson;
+
+    /* background: crimson; */
+}
+
+#one{
+    /* padding-left: 80px; */
+    justify-content: center;
+    /* line-height: 40px; */
+   
+}
+
+
+@keyframes slide{
+    0%{
+        background-image: linear-gradient(rgba(0,0,0,0,75),rgba(0,0,0,0,75)) url(./Image/SL_110720_37770_21.jpg);
+    }
+    33%{
+        background-image: url(./Image/hacker-working-darkness.jpg);
+    }
+    67%{
+        background-image: url(./Image/futuristic-smart-city-with-5g-global-network-technology.jpg);
+    }
+}
+#me{
+    border-radius: 250px;
+    justify-content: center;
+    border: 6px solid crimson;
+    cursor: pointer;
+}
+@media screen and (max-width: 500px) {
+    #ro{
+        padding-top: 140px;
+        line-height: 35px;
+    }
+    #one{
+        padding-top: 50px;
+        text-align: center;
+        
+    }
+    #s{
+        font-size: 21px;
+    }
+    #b{
+        font-size: 40px;
+    }
+    #av{
+        font-size: 28px;
+    }
+    #me{
+        height: 200px;
+        width: 150px;
+    }
+}
+@media screen and (max-width: 375px) {
+    #ro{
+        padding-top: 140px;
+        line-height: 35px;
+    }
+    #one{
+        padding-top: 50px;
+        text-align: center;
+        
+    }
+    #s{
+        font-size: 15px;
+    }
+    #b{
+        font-size: 32px;
+    }
+    #av{
+        font-size: 24px;
+    }
+    #me{
+        height: 100px;
+        width: 80px;
+    }
+}
+@media screen and (max-width: 800px) {
+    #ro{
+        padding-top: 140px;
+        line-height: 35px;
+    }
+    #one{
+        padding-top: 50px;
+        text-align: center;
+        
+    }
+}
+@media screen and (max-width:992px) {
+    #ro{
+        padding-top: 140px;
+    }
+    #one{
+        padding-top: 50px;
+        text-align: center;
+        line-height: 35px;
+    }
+    #me{
+        height: 200px;
+        width: 200px;
+    }
+}
+#sp::before{
+    content: 'Student';
+    animation: animate infinite 4s;
+    font-weight: bold;
+}
+@keyframes animate{
+    25%{
+        content: 'Developer';   
+    }
+    50%{
+        content: 'Designer';
+    }
+    75%{
+        content: 'You Tuber';
+    }
+}

@@ -6,6 +6,18 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+.parallax{
+  display: flex;
+  background: url(./Image/SL_110720_37770_21.jpg) no-repeat center;
+  height: 100vh;
+  background-size: cover;
+  width: 100%;
+  position: fixed;
+  overflow: hidden;
+  animation: slide  15s infinite;
+  z-index: -1;
+  
+} 
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
