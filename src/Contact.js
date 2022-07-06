@@ -45,19 +45,19 @@ class Contact extends React.Component{
             <Form onSubmit={this.validateForm} target="_blank" method="GET">
 
                 <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
-                    <Form.Control type="text" placeholder="Your Name" id="name" />
+                    <Form.Control type="text" placeholder="Your Name" />
                 </Form.Group>
 
                 <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
-                    <Form.Control type="subject" placeholder="Subject" id="subject"/>
+                    <Form.Control type="subject" placeholder="Subject" />
                 </Form.Group>
 
                 <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
-                    <Form.Control as="textarea" placeholder="Message" id="body" rows={3} />
+                    <Form.Control as="textarea" placeholder="Message" rows={3} />
                 </Form.Group>
 
                 <Form.Group className="d-grid mb-3">
-                <input type="Submit" className="butn" value="Submit" id="navigation"/>
+                <input type="Submit" className="butn"  id="navigation"/>
                 </Form.Group>
   
 
