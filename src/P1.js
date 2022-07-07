@@ -15,9 +15,9 @@ const P1 = () => {
        <Container fluid className="overlay" id="Home">
            <Container>
            <Row className="justify-content-center" id="ro">
-           <Col xl={2} lg={3} md={3} sm={4} xs={6} id="two">
-                <div data-aos="fade-down-right" data-aos-duration="2000" className="justify-content-center">
-                <Image id="me" src={im1} thumbnail /> 
+           <Col xl={3} lg={4} md={10} sm={10} xs={10} id="two">
+                <div data-aos="fade-down-right" data-aos-duration="2000" className="img">
+                <Image id="mee" src={im1} thumbnail /> 
                 </div>
                </Col>
                <Col xl={1} lg={1}></Col>

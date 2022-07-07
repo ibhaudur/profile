@@ -12,6 +12,12 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     
 }
+.img{
+    display: flex;
+    min-width: 100%;
+    flex-direction: row;
+    justify-content: center;
+}
 #b{
     font-size: 46px;
     font-weight: 500;
@@ -80,35 +86,14 @@
         background-image: url(./Image/futuristic-smart-city-with-5g-global-network-technology.jpg);
     }
 }
-#me{
-    border-radius: 250px;
+#mee{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
     justify-content: center;
     border: 6px solid crimson;
     cursor: pointer;
-}
-@media screen and (max-width: 500px) {
-    #ro{
-        padding-top: 140px;
-        line-height: 35px;
-    }
-    #one{
-        padding-top: 50px;
-        text-align: center;
-        
-    }
-    #s{
-        font-size: 21px;
-    }
-    #b{
-        font-size: 40px;
-    }
-    #av{
-        font-size: 28px;
-    }
-    #me{
-        height: 200px;
-        width: 150px;
-    }
+    
 }
 @media screen and (max-width: 375px) {
     #ro{
@@ -129,11 +114,36 @@
     #av{
         font-size: 24px;
     }
-    #me{
-        height: 100px;
-        width: 80px;
+    #mee{
+        height: 125px;
+        width: 125px;
     }
 }
+@media screen and (max-width: 500px) {
+    #ro{
+        padding-top: 140px;
+        line-height: 35px;
+    }
+    #one{
+        padding-top: 50px;
+        text-align: center;
+        
+    }
+    #s{
+        font-size: 21px;
+    }
+    #b{
+        font-size: 40px;
+    }
+    #av{
+        font-size: 28px;
+    }
+    #mee{
+        height: 150px;
+        width: 150px;
+    }
+}
+
 @media screen and (max-width: 800px) {
     #ro{
         padding-top: 140px;

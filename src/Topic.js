@@ -8,7 +8,7 @@ const Topic = (props) => {
     AOS.init();
     return (
        <Container fluid id="about">
-           <Row data-aos="fade-up" data-aos-duration="2000" >
+           <Row data-aos="fade-up" data-aos-duration="2000" id={props.i}>
             <Col lg={12}  id="text">
                 <h1 id="bf" >
                     {props.Head}

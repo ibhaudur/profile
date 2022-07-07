@@ -25,7 +25,7 @@ class Contact extends React.Component{
     AOS.init();
 
         return(
-            <Container fluid id="contact">
+            <Container fluid id="contacts">
         <Row className="justify-content-center" data-aos="fade-up" data-aos-duration="2000">
             <Col xl={3} lg={3} md={3} sm={6} xs={8}>
                 <h3 id="h3"><b>IRsBlog</b></h3>

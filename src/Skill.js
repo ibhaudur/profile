@@ -10,7 +10,7 @@ const Skill = () => {
     AOS.init();
 
     return (
-        <Container fluid id="Skill">
+        <Container fluid id="Skills">
             <Row className="justify-content-center mt-5" >
                 <Col xl={4} lg={4} md={5} sm={8} xs={8}>
                     <div  className="bars" data-aos="fade-right" data-aos-duration="2000">

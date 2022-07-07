@@ -9,20 +9,19 @@ import Contact from './Contact';
 import Skill from './Skill';
 
 
-
 function App() {
   return (
-    <div>
+    <>
       <Head/>
       <P1/>
-      <Topic Head="About" con="Our software development services"/>
+      <Topic Head="About" con="Our software development services" i="ab"/>
       <About/>
-      <Topic Head="Skills" con="Our software development services"/>
+      <Topic Head="Skills" con="Our software development services" i="Skill"/>
       <Skill/>
-      <Topic Head="Contact" con="Our software development services"/>
+      <Topic Head="Contact" con="Our software development services" i="contact"/>
       <Contact/>
       
-    </div>
+    </>
 
     
   );

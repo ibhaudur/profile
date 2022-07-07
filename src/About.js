@@ -11,7 +11,7 @@ const About = () => {
     AOS.init();
 
     return (
-       <Container fluid id="ab">
+       <Container fluid id="abt">
            <Row className="justify-content-center mb-5" data-aos="fade-up" data-aos-duration="2100" id="r1">
                <Col xl={4} lg={5} md={8} sm={8} xs={10} data-aos="fade-up-right" data-aos-duration="2000">
                     <Image src={jmc} thumbnail/>
